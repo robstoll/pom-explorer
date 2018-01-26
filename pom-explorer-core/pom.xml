@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<groupId>fr.lteconsulting</groupId>
+		<groupId>ch.loewenfels</groupId>
 		<artifactId>pom-explorer-modules</artifactId>
-		<version>1.4-SNAPSHOT</version>
+		<version>0.1.0</version>
 	</parent>
 	
 	<artifactId>pom-explorer-core</artifactId>
@@ -14,6 +14,7 @@
 	<packaging>jar</packaging>
 	
 	<name>pom-explorer-core</name>
+	<description>copy of fr.lteconsulting:pom-explorer-core</description>
 	
 	<url>http://maven.apache.org</url>
 	
