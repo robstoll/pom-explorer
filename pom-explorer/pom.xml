@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<groupId>ch.loewenfels</groupId>
+		<groupId>ch.tutteli.copies</groupId>
 		<artifactId>pom-explorer-modules</artifactId>
 		<version>1.3.1</version>
 	</parent>
@@ -30,7 +30,7 @@
 	
 	<dependencies>
 		<dependency>
-			<groupId>fr.lteconsulting</groupId>
+			<groupId>ch.tutteli.copies</groupId>
 			<artifactId>pom-explorer-core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -90,7 +90,7 @@
 			<artifactId>org.eclipse.jgit</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>fr.lteconsulting</groupId>
+			<groupId>ch.tutteli.copies</groupId>
 			<artifactId>autothreaded</artifactId>
 			<version>${project.version}</version>
 		</dependency>
