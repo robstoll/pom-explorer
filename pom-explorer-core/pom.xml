@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>ch.tutteli.copies</groupId>
 		<artifactId>pom-explorer-modules</artifactId>
-		<version>1.3.4</version>
+		<version>1.3.5</version>
 	</parent>
 	
 	<artifactId>pom-explorer-core</artifactId>
