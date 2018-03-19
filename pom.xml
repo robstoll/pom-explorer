@@ -5,7 +5,7 @@
 	
     <groupId>ch.tutteli.copies</groupId>
     <artifactId>pom-explorer-modules</artifactId>
-    <version>1.3.8</version>
+    <version>1.3.9</version>
 	
     <name>pom-explorer-modules</name>
     <description>copy of fr.lteconsulting:pom-explorer-modules</description>
