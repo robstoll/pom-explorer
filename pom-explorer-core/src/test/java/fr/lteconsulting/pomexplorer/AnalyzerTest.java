@@ -361,6 +361,22 @@ public class AnalyzerTest
 	}
 
 	@Test
+	public void bomDependency_dependencyToItself()
+	{
+		//arrange
+		Session session = new Session();
+		//act
+		runFullRecursiveAnalysis(session, "testSets/bomDependencyWithSelfDependency");
+		//assert
+		assertProjects(session, 3);
+		assertDependencies(session, PROJECT_A, 0);
+		assertDependencies(session, PROJECT_B, new GavIsSelfManaged(PROJECT_A, false));
+		assertDependenciesManagement(session, PROJECT_B, new GavIsSelfManaged(PROJECT_C, true));
+		assertDependenciesManagement(session, PROJECT_C, new GavIsSelfManaged(PROJECT_A, true));
+		assertNoNullGavs(session);
+	}
+
+	@Test
 	public void bomDependencyInParent()
 	{
 		//arrange
